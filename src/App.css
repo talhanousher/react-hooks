@@ -2,7 +2,12 @@
   padding: 40px;
 }
 
-.container .use-state {
+.container .use-state{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .use-effect{
   display: flex;
   justify-content: space-around;
 }
@@ -10,6 +15,10 @@
 .container .use-state .class-component{
   padding: 20px;
   border: 1px solid gray;
+}
+
+.container .use-effect .class-component{
+  padding: 20px;
 }
 
 .container .use-state .functional-component{
